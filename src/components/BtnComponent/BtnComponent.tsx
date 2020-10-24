@@ -20,8 +20,8 @@ const BtnComponent: React.FC<Props> = ({
           Start
         </button>
       ) : (
-        ""
-      )}
+          ""
+        )}
 
       {status === 1 ? (
         <div>
@@ -33,8 +33,8 @@ const BtnComponent: React.FC<Props> = ({
           </button>
         </div>
       ) : (
-        ""
-      )}
+          ""
+        )}
 
       {status === 2 ? (
         <div>
@@ -46,8 +46,8 @@ const BtnComponent: React.FC<Props> = ({
           </button>
         </div>
       ) : (
-        ""
-      )}
+          ""
+        )}
     </div>
   );
 };
